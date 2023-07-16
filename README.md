@@ -1,27 +1,34 @@
-# SupermercadoFront
+## Acerca de la prueba
+Prueba Front (OrusSystem)
+Esta es una prueba front para consumir y visualizar los servicios del back
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-## Development server
+# Herramientas utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Angular CLI: 16.1.0
+Node: 18.16.0
+Package Manager: npm 9.5.1
+Angular: 16.1.1
 
-## Code scaffolding
+# Paquetes Terceros
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación
 
-## Build
+1. Clonar el repositorio en la carperta del servidor web.
+2. por HTTPS https://github.com/YhordanMiller01/SupermercadoFront.git
+3. Por SSH git clone https://github.com/YhordanMiller01/SupermercadoFront.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# AppClients
 
-## Running unit tests
+Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Servidor de desarrollo
 
-## Running end-to-end tests
+Correr `ng serve` para un servidor de desarrollo. Navegue a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Proceso
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Se mostrara una vista principal con los botones de crear frutas y ver pedidos
+2. Al dar clic en ver frutas debera listar las frutas almacenadas en la base de datos, esta tiene la opción de editar o eliminar un registro
+
