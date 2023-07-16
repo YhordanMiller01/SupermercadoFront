@@ -1,0 +1,27 @@
+<section>
+
+  <div class="d-flex justify-content-between">
+    <h4>Lista Frutas</h4>
+    <a routerLink="/fruta/create" class="btn btn-success">Crear nueva Fruta</a>
+  </div>
+
+  <br>
+
+  <table class="table ">
+    <tr>
+      <th>Tipo</th>
+      <th>Cantidad Disponible</th>
+      <th>Precio</th>
+      <th width="220px">Acción</th>
+    </tr>
+    <tr *ngFor="let fruta of frutas">
+      <td>{{ fruta.tipo }}</td>
+      <td>{{ fruta.cantidad }}</td>
+      <td>{{ fruta.precio }}</td>
+      <td>
+        <a href="#" [routerLink]="['/fruta/', 'edit', fruta.id  ]" class="btn btn-primary">Editar</a>
+        <button type="button" (click)="EliminarFruta(fruta.id)" class="btn btn-danger">Eliminar</button>
+      </td>
+    </tr>
+  </table>
+</section>
