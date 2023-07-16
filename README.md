@@ -30,5 +30,5 @@ Correr `ng serve` para un servidor de desarrollo. Navegue a `http://localhost:42
 ## Proceso
 
 1. Se mostrara una vista principal con los botones de crear frutas y ver pedidos
-2. Al dar clic en ver frutas debera listar las frutas almacenadas en la base de datos, esta tiene la opción de editar o eliminar un registro
+2. Al dar clic en ver frutas debera listar las frutas almacenadas en la base de datos, esta tiene la opción de editar o eliminar un registro.
 
